@@ -1,0 +1,412 @@
+
+.investing{
+    background-color: #111111;
+    color: white;
+    padding: 4rem;
+    padding-left: 4rem;
+    margin-top: -2rem;
+}
+
+.h1{
+   text-align: left;
+   font-size: 2.5rem;
+   letter-spacing: 0.1px;
+   width: 85%;
+   margin: auto;
+   line-height: 40px;
+   font-weight: bolder;
+   margin-left: 2rem;
+}
+
+.babe{
+   text-align: left;
+   font-size: 1rem;
+   width: 50%;
+   margin: auto;
+   margin: 1rem 0 1rem 0;
+   margin-left: 2rem;
+   line-height: 20px;
+   font-weight: bolder;
+   color: rgb(158, 154, 154);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.portfoli{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.cow{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.pic{
+    width:30vw;
+    margin-bottom: 0.5rem;
+}
+
+
+.por{
+    margin-top: 4rem;
+    font-weight:1000;
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(58, 56, 56);
+    margin-bottom: 3rem;
+}
+
+.porter{
+    margin-top: 4rem;
+    font-weight:1000;
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(58, 56, 56);
+    margin-bottom: 0.5rem;
+}
+
+.porte{
+    margin-top: 4rem;
+    font-weight:1000;
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(58, 56, 56);
+    margin-top:6.5rem;
+    margin-bottom: 2.5rem;
+}
+
+ .bol{
+    font-weight:550;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(146, 144, 144);
+    margin-bottom: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 95%;
+    gap: 1.5rem;
+    overflow: hidden;
+    
+}
+
+.containe{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+     width: 90%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom:3rem;
+}
+
+.portfolio-ima{
+   margin-top: -1rem;
+ 
+}
+
+.picture{
+    width:25vw;
+    margin-bottom: 0.5rem;
+}
+
+.image-container {
+    overflow: hidden; /* Ensure the image is clipped within the container */
+   /* Ensure container respects the image's dimensions */
+  }
+  
+  .image-container img {
+    transition: transform 0.5s ease-out 0.1s; /* Add smooth transition */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+    width: 30; /* Zoom in effect */
+  }
+  
+ 
+  .button{
+    text-align: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   padding: 1rem 2rem;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+  .eli{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  text-decoration: none;
+ }
+ 
+  
+.picture:hover{
+
+  transition: transform 0.5s ease-out 0.1s;
+}
+  
+.pic:hover{
+  margin: 1rem 1rem;
+  transition: transform 0.5s ease-out 0.1s;
+  cursor:pointer;
+}
+
+
+  .sout{
+    font-size: 0.85rem;
+    text-align: left;
+    color: #6b6969;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-weight:600;
+    font-style:oblique;
+    margin-top: -0.5rem;
+  }
+  
+  .wes{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-weight:10000;
+    width:90%
+  }
+
+
+.win{
+    font-size: 1rem;
+   margin-top: 0.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-weight:10000;
+    width:90%
+  
+}
+
+
+  @media screen and (max-width: 790px) {
+   
+   
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.portfolio-image{
+    height: 10rem;
+    width: 27%;
+}
+
+.containe{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 83%;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom:3rem;
+}
+}
+
+@media screen and (max-width:  1024px) {
+   
+.portfolio-imag{
+    height: 16rem;
+    width: 27%;
+}
+
+
+
+.containe{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 82%;
+    gap: 1.5rem;
+    margin-bottom:3rem;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width: 808px) {
+   
+.portfolio-imag{
+   height: 15rem;
+    width: 27%;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 998px) {
+
+    
+.containe{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 83.5%;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom:3rem;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+   
+    .investing{
+        background-color:  #111111;
+        color: white;
+        padding: 4rem;
+        padding-left: 2rem;
+        margin-top: -1rem;
+  
+    }
+
+    
+.h1{
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    margin: 2rem 2rem 1rem 0;
+    line-height: 40px;
+    padding-left: 1.5rem;
+ } 
+  
+.containe{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 83.5%;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom:3rem;
+}
+
+.babe{
+    text-align: left;
+   font-size: 1rem;
+   width: 100%;
+   margin: auto;
+   margin: 1rem 0 1rem 0;
+   margin-left: 1.5rem;
+   line-height: 25px;
+   font-weight: bolder;
+   color: rgb(158, 154, 154);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    gap:2rem;
+}
+ 
+.cow{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 83.5%;
+    gap: 1.5rem;
+    overflow: hidden;
+    margin-bottom:3rem;
+}
+
+
+.picture{
+    width:80vw;
+}
+
+.pic{
+    width:80vw;
+}
+
+
+
+.picture:hover{
+    transition: transform 0.5s ease-out 0.1s;
+}
+
+.south{width: 100%;}
+
+.portfolio-imag{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .picture:hover{
+    margin-bottom: 2rem;
+    transition: transform 0.5s ease-out 0.1s;
+  }
+  
+  
+    
+    }
+    
+    
+    

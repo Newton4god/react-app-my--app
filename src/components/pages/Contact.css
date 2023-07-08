@@ -1,0 +1,60 @@
+.dobe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+.wen {
+    width:30%;
+ 
+}
+.don{
+    margin-top: 4rem;
+    font-weight:700;
+    text-align: left;
+    font-size: 2.2rem;
+    color: rgb(58, 56, 56);
+    margin-bottom: 0.5rem;
+}
+
+.obo{
+    font-weight:350;
+    text-align: left;
+    font-size: 1.1rem;
+    color: rgb(146, 144, 144);
+    margin-bottom: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 998px) {
+.dobe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+.wen {
+    width: 90%;
+    margin: auto;
+}
+
+.obo{
+    width: 60%;
+    font-weight:350;
+    text-align: left;
+    font-size: 1.1rem;
+    color: rgb(146, 144, 144);
+    margin-bottom: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+}
