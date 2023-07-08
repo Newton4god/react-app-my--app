@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Button.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Button.css";
 
 const Button = () => {
   return (
-  <Link to ='/signup'>
-    <button className='btn'>Sign up</button>
-  </Link>
-  )
-}
+    <Link to="/signup">
+      <button className="btn">Signed up</button>
+    </Link>
+  );
+};
 
-export default Button
+export default Button;
